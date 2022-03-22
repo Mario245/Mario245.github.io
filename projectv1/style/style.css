@@ -1,0 +1,33 @@
+img.align-left {
+  float: left}
+img.align-right {
+    float: right}
+img.small {
+  width: 75px;
+  height: 75px;
+}
+
+h3 {
+  text-align: center;
+}
+.iceland-cap {
+  float: left;
+}
+#iceland1{
+  float: left;
+  align: left;
+  margin-right:10px;
+
+}
+
+#iceland3{
+  float: right;
+  align: middle;
+  margin-left: 10px;
+}
+.row2 {
+  position: relative;
+
+body{
+  text-align: center;
+}

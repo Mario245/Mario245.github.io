@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  body{
+    background-image: url("sunrise.jpg");
+  }
+  #clock1 {
+    width: 200px;
+  }
+  .clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+  }
+
+  #clock1 {
+    width: 200px;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+
+  }
+
+  #second1 {
+    width: 120px;
+    position: fixed;
+    left: 100px;
+    top: 125px;
+  }
+
+  #hour1 {
+    width: 80px;
+    position: fixed;
+    left: 105px;
+    top: 125px;
+  }
+
+  #minute1 {
+    width: 60px;
+    position: fixed;
+    left: 135px;
+    top: 135px;
+  }
+
+
+
+  #second1{
+  margin: auto;
+
+
+
+  color: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
+}
+
+#hour1{
+margin: auto;
+
+width: 100px;
+height: 50px;
+
+color: red;
+animation: mymove1 10s infinite;
+}
+
+@keyframes mymove1 {
+100% {transform: rotate(360deg);}
+}
+
+
+
+
+
+  </style>
+  </head>
+
+
+
+
+
+
+
+
+<body>
+  <main>
+    <p>
+      <img id="clock1" src="clockimage.png">
+    </p>
+    <div class="clock2">
+      <div class="second">
+        <img id="second1" src="hand.png">
+      </div>
+      <div class="minute">
+        <img id="minute1" src="hand.png">
+      </div>
+      <div class="hour">
+        <img id="hour1" src="hand.png">
+      </div>
+      <div class="dot">
+      </div>
+    </div>
+
+    <article class="clock3">
+      <div class="hours-container">
+        <div class="hours"></div>
+      </div>
+      <div class="minutes-container">
+        <div class="minutes"></div>
+      </div>
+      <div class="seconds-container">
+        <div class="seconds"></div>
+      </div>
+    </article>
+
+
+
+
+
+
+  </main>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
